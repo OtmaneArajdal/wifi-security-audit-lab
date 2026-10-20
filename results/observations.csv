@@ -1,0 +1,4 @@
+scenario,observation,conditions,interpretation
+WPA2-PSK,Une paire EAPOL extraite et secret de test retrouvé,Secret faible choisi et présent dans le dictionnaire,Pas de rupture AES ou benchmark général
+WPA3-SAE,Aucun hash écrit ; capture de quatre paquets,Trames essentielles manquantes ; PMF configuré,"Échec du traitement, comparaison à compléter"
+Evil Twin WPA2,Même SSID ; association au jumeau ; récupération reproduite,BSSID imposé et secret déjà connu du test,Pas de roaming spontané ou MITM complet démontré

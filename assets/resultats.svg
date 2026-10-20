@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="690" viewBox="0 0 1400 690">
+<rect width="1400" height="690" fill="#FFFFFF"/>
+<g font-family="Arial,sans-serif" fill="#152F43">
+<text x="50" y="52" font-size="31" font-weight="700">Résultats documentés et portée des essais</text>
+<text x="50" y="88" font-size="22" fill="#536574">Synthèse du rapport · Aucun nouveau test exécuté pour cette présentation</text>
+<g fill="#F3F7FA" stroke="#B9CBD8" stroke-width="2"><rect x="50" y="135" width="405" height="395" rx="10"/><rect x="498" y="135" width="405" height="395" rx="10"/><rect x="946" y="135" width="405" height="395" rx="10"/></g>
+<text x="75" y="182" font-size="27" font-weight="700">WPA2-PSK</text>
+<text x="75" y="231" font-size="22">EAPOL observé</text><text x="75" y="267" font-size="22">Une paire exploitable extraite</text><text x="75" y="303" font-size="22">Secret de test retrouvé</text>
+<text x="75" y="367" font-size="22" font-weight="700">Condition déterminante</text><text x="75" y="406" font-size="21">Secret volontairement faible</text><text x="75" y="440" font-size="21">présent dans le dictionnaire</text><text x="75" y="485" font-size="20" fill="#536574">Aucune rupture d’AES démontrée</text>
+<text x="523" y="182" font-size="27" font-weight="700">WPA3-SAE</text>
+<text x="523" y="231" font-size="22">Aucun hash écrit</text><text x="523" y="267" font-size="22">Capture limitée à quatre paquets</text><text x="523" y="303" font-size="22">Trames essentielles manquantes</text>
+<text x="523" y="367" font-size="22" font-weight="700">Interprétation</text><text x="523" y="406" font-size="21">Échec du traitement observé</text><text x="523" y="440" font-size="21">Validation à compléter</text><text x="523" y="485" font-size="20" fill="#536574">Pas de preuve de sécurité universelle</text>
+<text x="971" y="182" font-size="27" font-weight="700">Evil Twin WPA2</text>
+<text x="971" y="231" font-size="22">Même SSID, BSSID distincts</text><text x="971" y="267" font-size="22">Association pilotée du client</text><text x="971" y="303" font-size="22">Récupération reproduite</text>
+<text x="971" y="367" font-size="22" font-weight="700">Conditions du laboratoire</text><text x="971" y="406" font-size="21">BSSID du jumeau imposé</text><text x="971" y="440" font-size="21">Secret de test déjà configuré</text><text x="971" y="485" font-size="20" fill="#536574">Aucun roaming spontané validé</text>
+<text x="50" y="584" font-size="22">Les durées et débits de craquage ne sont pas repris comme un benchmark.</text>
+<text x="50" y="628" font-size="20" fill="#536574">Les valeurs 0 ACK ne prouvent pas, à elles seules, une déconnexion ou un blocage par PMF.</text>
+</g></svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="720" viewBox="0 0 1400 720">
+<rect width="1400" height="720" fill="#FFFFFF"/>
+<g font-family="Arial,sans-serif" fill="#152F43">
+<text x="50" y="52" font-size="31" font-weight="700">Architecture du laboratoire Wi-Fi virtuel</text>
+<text x="50" y="88" font-size="22" fill="#536574">Kali Linux · mac80211_hwsim · quatre radios de test</text>
+<g stroke="#AAC0D0" stroke-width="2" fill="#F3F7FA">
+<rect x="50" y="135" width="455" height="175" rx="10"/>
+<rect x="895" y="135" width="455" height="175" rx="10"/>
+<rect x="50" y="360" width="455" height="175" rx="10"/>
+<rect x="895" y="360" width="455" height="175" rx="10"/>
+</g>
+<text x="77" y="177" font-size="25" font-weight="700">wlan0 · Point d’accès de test</text>
+<text x="77" y="218" font-size="22">hostapd</text><text x="77" y="253" font-size="22">WPA2-PSK puis WPA3-SAE</text>
+<text x="922" y="177" font-size="25" font-weight="700">wlan1 · Client contrôlé</text>
+<text x="922" y="218" font-size="22">wpa_supplicant</text><text x="922" y="253" font-size="22">Association selon le scénario</text>
+<text x="77" y="402" font-size="25" font-weight="700">wlan2 · Interface réaffectée</text>
+<text x="77" y="444" font-size="22">Mode moniteur ou AP jumeau</text><text x="77" y="479" font-size="22">Rôle différent selon l’essai</text>
+<text x="922" y="402" font-size="25" font-weight="700">wlan3 · Capture dédiée</text>
+<text x="922" y="444" font-size="22">Observation des échanges</text><text x="922" y="479" font-size="22">Trames et données EAPOL</text>
+<g stroke="#3D6E8E" stroke-width="2.5" stroke-dasharray="8 6"><line x1="505" y1="224" x2="598" y2="301"/><line x1="895" y1="224" x2="802" y2="301"/><line x1="505" y1="443" x2="598" y2="367"/><line x1="895" y1="443" x2="802" y2="367"/></g>
+<rect x="595" y="272" width="210" height="126" rx="12" fill="#E9F1F7" stroke="#8FACBF" stroke-width="2"/>
+<text x="620" y="320" font-size="23" font-weight="700">Média simulé</text><text x="619" y="360" font-size="20">Échanges 802.11</text>
+<text x="50" y="594" font-size="23" font-weight="700">Démarche d’analyse</text>
+<text x="50" y="632" font-size="22">Configuration → observation → analyse des captures → interprétation et recommandations</text>
+<text x="50" y="678" font-size="20" fill="#536574">Schéma fonctionnel · Aucune mesure de portée, d’interférences ou de puissance radio réelle</text>
+</g></svg>

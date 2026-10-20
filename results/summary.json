@@ -1,0 +1,36 @@
+{
+  "project": "Audit de sécurité Wi-Fi en laboratoire",
+  "presenter": "Otmane Arajdal",
+  "context": "PFA de quatrième année",
+  "academic_year": "2025-2026",
+  "environment": {
+    "os": "Kali Linux",
+    "simulator": "mac80211_hwsim",
+    "virtual_radios": 4,
+    "physical_wifi_testing": false
+  },
+  "scenarios": {
+    "wpa2_psk": {
+      "eapol_pair_written": 1,
+      "weak_test_secret_recovery_documented": true
+    },
+    "wpa3_sae": {
+      "hash_written": false,
+      "packets_in_converter_capture": 4,
+      "missing_frames_reported": true,
+      "pmf_required_configuration_reported": true,
+      "universal_security_proof": false
+    },
+    "evil_twin": {
+      "same_ssid_distinct_bssid": true,
+      "client_bssid_forced": true,
+      "known_test_psk_configured": true,
+      "recovery_reproduced": true,
+      "automatic_roaming_demonstrated": false,
+      "complete_mitm_demonstrated": false
+    }
+  },
+  "new_tests_performed_for_portfolio": false,
+  "benchmark_claims_included": false,
+  "visuals": "Source-based diagrams and summary tables; no raw screenshot redistributed"
+}
